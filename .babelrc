@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "useBuiltIns": "entry",
+        "targets": {
+          "browsers": [">1%", "not op_mini all", "not dead"]
+        }
+      }
+    ],
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/syntax-dynamic-import"
+  ]
+}

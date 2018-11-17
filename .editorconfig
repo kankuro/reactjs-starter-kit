@@ -1,0 +1,33 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+
+# Matches multiple files with brace expansion notation
+# Set default indentation
+[*.{babelrc,eslintrc,eslintrc.js,postcss.config.js,prettierc}]
+indent_size = 2
+indent_style = space
+
+# Matches the exact files like: package.json
+[{package.json}]
+indent_size = 2
+indent_style = space
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.js]
+trim_trailing_whitespace = true
+
+[*.{css,scss}]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
