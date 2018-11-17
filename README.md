@@ -24,7 +24,7 @@ npm run start
 It will automatically open a default browser of your machine at port 8000
 
 **Builds**
-```
+
 Development build
 ```
 npm run dev
