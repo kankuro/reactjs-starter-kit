@@ -1,5 +1,5 @@
 # ReactJS Starter Kit
-A customise starter kit for ReactJS project which uses a Fractal pattern for its folder structure.
+A basic starter kit for ReactJS project.
 
 ## Usage
 
@@ -21,15 +21,16 @@ npm install
 ```
 npm run start
 ```
-It will automatically open a default browser of your machine at port 8000
+It will automatically open a default browser of your machine at port `8000`.
 
 **Builds**
 
-Development build
+Development
 ```
 npm run dev
 ```
-Production build
+Production
 ```
 npm run build
 ```
+Everytime you do a build it will automatically clean the `build` folder to insure it has a latest copy.
