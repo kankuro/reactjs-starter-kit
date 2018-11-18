@@ -5,8 +5,13 @@ A basic starter kit for ReactJS project.
 
 **Clone the repo**
 ```
-git clone git@github.com:kankuro/reactjs-starter-kit.git
+git clone https://github.com/kankuro/reactjs-starter-kit.git
 ```
+or if you want to clone the repository into a directory other than `reactjs-starter-kit`, you can specify the new directory name as an additional argument like so:
+```
+git clone https://github.com/kankuro/reactjs-starter-kit.git react-boilerplate
+```
+That command does the same thing as the previous one, but the target directory is called `react-boilerplate`.
 
 **Install dependencies**
 ```
