@@ -1,14 +1,5 @@
 const pluginsConfig = param => {
-    const {
-        glob,
-        path,
-        webpack,
-        envMode,
-        HtmlWebpackPlugin,
-        MiniCssExtractPlugin,
-        PurifyCSSPlugin,
-        plugins,
-    } = param;
+    const { glob, path, webpack, envMode, HtmlWebpackPlugin, MiniCssExtractPlugin, PurifyCSSPlugin, plugins } = param;
 
     const htmlWebpackPluginSettings = {
         template: './public/index.html',
