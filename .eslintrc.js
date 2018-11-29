@@ -53,7 +53,9 @@ module.exports = {
         "singleQuote": true,
         "trailingComma": "all",
         "tabWidth": 4,
-        "useTabs": false
+        "useTabs": false,
+        "jsxBracketSameLine:": true,
+        "printWidth": 120
       }
     ]
   },
