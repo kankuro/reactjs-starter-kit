@@ -20,9 +20,25 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "npm run prettier",
+    "src/**/*.{js,jsx}": [
+      "prettier --write",
       "npm run lint:write",
+      "git add"
+    ],
+    "src/**/*.css": [
+      "stylelint",
+      "git add"
+    ],
+    "src/**/*.scss": [
+      "stylelint --syntax=scss",
+      "git add"
+    ],
+    "src/**/*.{json,md,html}": [
+      "prettier --write",
+      "git add"
+    ],
+    "src/**/*.{png,jpeg,jpg,gif,svg}": [
+      "imagemin-lint-staged",
       "git add"
     ]
   },
@@ -65,6 +81,7 @@
     "html-webpack-plugin": "^3.2.0",
     "husky": "^1.1.4",
     "image-webpack-loader": "^4.5.0",
+    "imagemin-lint-staged": "^0.3.0",
     "lint-staged": "^8.0.5",
     "mini-css-extract-plugin": "^0.4.4",
     "node-sass-chokidar": "^1.3.4",
@@ -76,6 +93,7 @@
     "rimraf": "^2.6.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "stylelint": "^9.9.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
