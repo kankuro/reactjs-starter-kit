@@ -3,16 +3,6 @@ A basic starter kit for ReactJS project.
 
 ## Usage
 
-**Clone the repo**
-```
-git clone https://github.com/kankuro/reactjs-starter-kit.git
-```
-or if you want to clone the repository into a directory other than `reactjs-starter-kit`, you can specify the new directory name as an additional argument like so:
-```
-git clone https://github.com/kankuro/reactjs-starter-kit.git react-boilerplate
-```
-That command does the same thing as the previous one, but the target directory is called `react-boilerplate`.
-
 **Install dependencies**
 ```
 npm i
@@ -39,3 +29,16 @@ Production
 npm run build
 ```
 Everytime you do a build it will automatically clean the `build` folder to insure it has a latest copy.
+
+## Help Develop
+If wanting to help improve this kit for the better just clone the repository to your local machine and do a pull request.
+
+**Clone the repo**
+```
+git clone https://github.com/kankuro/reactjs-starter-kit.git
+```
+or if you want to clone the repository into a directory other than `reactjs-starter-kit`, you can specify the new directory name as an additional argument like so:
+```
+git clone https://github.com/kankuro/reactjs-starter-kit.git react-boilerplate
+```
+That command does the same thing as the previous one, but the target directory is called `react-boilerplate`.
